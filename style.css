@@ -1,0 +1,276 @@
+html {
+	background: #fff;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: #fff;
+}
+
+a:link, a:visited {	color: #333333; text-decoration: underline; }
+a:active, a:hover { color: #990000; text-decoration: none; }
+
+p {
+	font-size: 15px;
+	color: #000000;
+	text-align: justify;
+	margin: 0 0 15px 0;		
+}
+
+h1 {
+	font-size: 25px;
+	color: #000000;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+}
+
+#container {
+	background: url(images/templaetmo_container_bg.jpg) no-repeat top;
+	width: 1024px;
+	margin: auto;
+}
+
+#header {
+	background: url(images/headerv2.png);
+	width: 1024px;
+	height: 540px;
+	color: #000000;
+}
+
+#header2 {
+	background: url(images/headerv3.png);
+	width: 1024px;
+	height: 340px;
+	color: #000000;
+}
+
+#menu {
+	margin: auto;
+	width: 960px;
+	height: 48px;
+	background: url(images/menu_bg.jpg);
+	padding: 0 0 0 0;
+}
+
+#menu ul {
+	float: right;
+	margin: 0px;
+	padding: 0 0 0 0;
+	width: 960px;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	padding: 16px 29px;	
+	text-align: center;
+	text-decoration: none;
+	background: url(images/menu_divider.png) center right no-repeat;
+	font-size: 20px;
+	outline: none;
+	color: #000000;
+}
+
+#menu li a:hover, #menu li .current {
+	background: url(images/menu_current.png) top center no-repeat;
+}
+
+#logo_area {
+	float: left;
+	width: 350px;
+	height: 10px;
+	margin: 70px 0 0 70px;
+	<!--background: url(images/slogan.png) no-repeat;
+	background-position: 10px 50px;-->
+}
+
+#logo_area2 {
+	float: left;
+	width: 350px;
+	height: 10px;
+	margin: 120px 0 0 90px;
+	<!--background: url(images/slogan.png) no-repeat;
+	background-position: 10px 50px;-->
+}
+
+#logo {
+	font-size: 50px;
+}
+
+#logo_image {
+	float: left;
+	width: 350px;
+	height: 10px;
+	margin: 20px 0 0 10px;
+}
+
+#logo_image2 {
+	float: left;
+	width: 350px;
+	height: 10px;
+	margin: 20px 0 0 -5px;
+}
+
+#association{
+	margin: 30px 0 0 60px;	
+	float: left;	
+	font-size: 20px;
+	width: 300px;
+	height: 32px;
+}
+
+.placefiller {
+	float: right;
+	width: 437px;
+	height: 250px;
+}
+
+.welcome {
+	float: right;
+	width: 437px;
+	height: 213px;
+	background: url(images/box.png) no-repeat;
+	padding: 15px 85px;
+	margin: 40px 15px 0 0;
+}
+
+.welcome p {
+	color: #000000;
+	font-size: 16px;
+}
+
+.welcome h1 {
+	color: #000000;
+	font-size: 30px;
+}
+
+#content {
+	width: 1024px;
+	background: #ededed;
+}
+
+#content_top {
+	width: 1024px;
+	background: url(images/content_bg_top.jpg) top no-repeat;
+}
+
+#content_bottom {
+	width: 1024px;
+	background: url(images/content_bg_bottom.jpg) bottom no-repeat;
+	padding: 30px 0;
+}
+
+#templaetmo_left {
+	float:left;
+	width: 290px;
+	margin: 0 0 0 30px;
+}
+
+.one_col {
+	width: 280px;
+	margin: 0 0 0px 0;
+}
+
+.one_col img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.tsection_1 {
+	float: left;
+	width: 300px;
+	margin: 10px 0 0 50px
+}
+
+.tsection_2 {
+	float: left;
+	width: 600px;
+	margin: 20px 0 0 30px
+}
+
+.section_1 {
+	float: left;
+	width: 300px;
+	margin: 10px 0 0 0
+}
+
+
+
+.section_2 {
+	float: right;
+	width: 300px;
+	height: 120px;
+	margin: 26px 30px 0 0
+}
+
+#right {
+	float: right;
+	width: 670px;	
+	margin: -30px 15px 0 0;
+        background: url(images/test.png) no-repeat center;
+	border: 5px #d5d5d5 solid;
+}
+
+#right2 {
+	float: right;
+	width: 670px;	
+	margin: -30px 15px 0 0;
+}
+
+#right_top {
+	width: 600px;
+	height: 26px;
+	<!--background: url(images/right_top.png) no-repeat;-->
+	padding: 30px 0 0 30px;	
+}
+
+#right_top h1 {
+	margin: 15px;
+}
+#right_mid {
+	width: 600px;	
+}
+
+#right_mid #right_mid_top {
+	width: 600px;	
+	<!--background: url(images/right_mid_top.png) top no-repeat;-->
+	padding: 15px 25px 0px 25px;
+}
+
+#right_mid_top img {
+	border: 5px #d5d5d5 solid;
+	margin: 5px 0 10px 10px;
+}
+
+
+.two_col {
+	width: 670px;
+	height: 160px;
+	margin: 0px 0px 0 0;
+}
+
+.two_col img {
+	float: left;	
+	border: 5px #d5d5d5 solid;
+}
+
+
+
+.cleaner {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
